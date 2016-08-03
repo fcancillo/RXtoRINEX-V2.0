@@ -1,0 +1,886 @@
+<13:25:55> GSD4t_Config_init: called
+<13:25:55> GSD4t Config Already Initialized
+<13:25:55> [sirf_get_gps_interface] sirf_get_gps_interface:4781
+<13:25:55> sirf_nmea_log_init: called
+<13:25:55> ### Samsung U1, CSR SiRF Software 2.0, A20_Beta 2011,04,13 ###
+<13:25:55> sirf_gps_init: called
+<13:25:55> Configure GPS Capabilites - Scheduling, MSB, MSA
+<13:26:04> GSD4t_reset
+<13:26:04> APP: INFO: LSM version is 1.03.01.L
+LPL Version
+LPL_3.1.0_P4_CCCBS_00E16L
+<13:26:04> INFO: LSM_Init is called
+<13:26:10> test mode enabled? 1, callback: 0x83a47631
+<13:26:10> GM_setResetType is called 1 - 2
+<13:26:10> GM_setAidingType is called 1 - 2
+<13:26:10> INFO: LSM_Init exits
+<13:26:10> LSM_Init Success!!!
+<13:26:10> GSD4t HW Initialized successfully
+<13:26:10> tracker_upload_thread exit
+<13:26:10> Tracker Upload is done
+<13:26:10> ****** GSD4t Hardware Configuration ******
+<13:26:10> *** [PROJECT : SAMSUNG_U1]
+<13:26:10> *** [UART DRIVER : /dev/s3c2410_serial1]
+<13:26:10> *** [RESET GPIO : /sys/devices/virtual/sec/gps/GPS_nRST/value]
+<13:26:10> *** [ONOFF GPIO : /sys/devices/virtual/sec/gps/GPS_PWR_EN/value]
+<13:26:10> *** [TCXO CLOCK : 26MHz]
+<13:26:10> *** [EXTERNAL LNA : ENABLED]
+<13:26:10> *** [UART BAUD RATE : 115200]
+<13:26:10> *** [FREQUENCY AIDING : ENABLED]
+<13:26:10> *** [SENSOR AIDING : DISABLED]
+<13:26:10> *** [SETID : IMSI]
+<13:26:10> *** [SSL : DISABLED]
+<13:26:10> *** [DEBUGGING FILES : ENABLED]
+<13:26:10> IdleState:updating session check
+<13:26:10> Create android_session_handler thread
+<13:26:10> Create android_status_report_handler thread
+<13:26:10> INFO: CP_SetMessageListeners is called
+<13:26:10> INFO: CP_SetMessageListeners exits
+<13:26:10> SIRF GSD4t Initialization Success
+<13:26:10> sirf_gps_get_extension called : gps-ni
+<13:26:10> sirf_gps_get_extension called : agps_ril
+<13:26:10> sirf_gps_get_extension called : agps
+<13:26:10> sirf_gps_get_extension called : gps_misc
+<13:26:10> sirf_gps_get_extension called : gps-debug
+<13:26:10> sirf_gps_get_extension called : gps-xtra
+<13:26:10> sirf_gps_get_extension: interface gps-xtra not supported
+<13:26:10> sirf_agps_set_server - Type : 1, hostname = supl.google.com, port = 7276
+<13:27:14> ##### sirf_gps_start: called #####
+<13:27:14> gps_start called;resuming session 
+<13:27:14> android_session_handler no session is running!!!
+
+<13:27:14> ========== NEW Session ==========
+
+<13:27:14> Session State Machine : MOSession
+<13:27:14> INFO: GPS_WAKE_LOCK_ENABLE
+<13:27:14> g to r dc a mutex
+<13:27:14> Data conn failed
+<13:27:14> DATA Connection Req - Type : 1, Status : 1
+<13:27:14> got DataConnection Response
+<13:27:14> DataConnection Closed
+<13:27:14> D C R failed:standalone with LA
+<13:27:14> INFO: LSM_Start is called
+<13:27:14> INFO: ***** pSessionId = 0x42a9e0 ***** 
+<13:27:14> GM_setAidingType is called - 1
+<13:27:14> GM_setResetType is called 3 - 2
+<13:27:14> INFO: (lsmStartSession<13:27:14> INFO: (lsmStartSession) rtn = 1
+<13:27:14> INFO: session id = 2
+<13:27:14> INFO: LSM_Start exits
+<13:27:15> lsmProgCallback : 6 
+<13:29:41> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 1/0
+<13:29:41> INFO: lsmLocCallback : do nothing
+<13:29:41> LSM:lsmLocCB out
+<13:29:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 2/0
+<13:29:42> INFO: lsmLocCallback : do nothing
+<13:29:42> LSM:lsmLocCB out
+<13:29:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 3/0
+<13:29:43> INFO: lsmLocCallback : do nothing
+<13:29:43> LSM:lsmLocCB out
+<13:29:44> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 4/0
+<13:29:44> INFO: lsmLocCallback : do nothing
+<13:29:44> LSM:lsmLocCB out
+<13:29:45> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 5/0
+<13:29:45> INFO: lsmLocCallback : do nothing
+<13:29:45> LSM:lsmLocCB out
+<13:29:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 6/0
+<13:29:46> INFO: lsmLocCallback : do nothing
+<13:29:46> LSM:lsmLocCB out
+<13:29:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 7/0
+<13:29:47> INFO: lsmLocCallback : do nothing
+<13:29:47> LSM:lsmLocCB out
+<13:29:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 8/0
+<13:29:48> INFO: lsmLocCallback : do nothing
+<13:29:48> LSM:lsmLocCB out
+<13:29:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 9/0
+<13:29:49> INFO: lsmLocCallback : do nothing
+<13:29:49> LSM:lsmLocCB out
+<13:29:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 10/0
+<13:29:50> INFO: lsmLocCallback : do nothing
+<13:29:50> LSM:lsmLocCB out
+<13:29:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 11/0
+<13:29:51> INFO: lsmLocCallback : do nothing
+<13:29:51> LSM:lsmLocCB out
+<13:29:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 12/0
+<13:29:52> INFO: lsmLocCallback : do nothing
+<13:29:52> LSM:lsmLocCB out
+<13:29:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 13/0
+<13:29:53> INFO: lsmLocCallback : do nothing
+<13:29:53> LSM:lsmLocCB out
+<13:29:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 14/0
+<13:29:54> INFO: lsmLocCallback : do nothing
+<13:29:54> LSM:lsmLocCB out
+<13:29:55> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 15/0
+<13:29:55> INFO: lsmLocCallback : do nothing
+<13:29:55> LSM:lsmLocCB out
+<13:29:56> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 16/0
+<13:29:56> INFO: lsmLocCallback : do nothing
+<13:29:56> LSM:lsmLocCB out
+<13:29:57> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 17/0
+<13:29:57> INFO: lsmLocCallback : do nothing
+<13:29:57> LSM:lsmLocCB out
+<13:29:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 18/0
+<13:29:59> INFO: lsmLocCallback : do nothing
+<13:29:59> LSM:lsmLocCB out
+<13:29:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 19/0
+<13:29:59> INFO: lsmLocCallback : do nothing
+<13:29:59> LSM:lsmLocCB out
+<13:30:00> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 20/0
+<13:30:00> INFO: lsmLocCallback : do nothing
+<13:30:00> LSM:lsmLocCB out
+<13:30:01> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 21/0
+<13:30:01> INFO: lsmLocCallback : do nothing
+<13:30:01> LSM:lsmLocCB out
+<13:30:02> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 22/0
+<13:30:02> INFO: lsmLocCallback : do nothing
+<13:30:02> LSM:lsmLocCB out
+<13:30:03> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 23/0
+<13:30:03> INFO: lsmLocCallback : do nothing
+<13:30:03> LSM:lsmLocCB out
+<13:30:04> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 24/0
+<13:30:04> INFO: lsmLocCallback : do nothing
+<13:30:04> LSM:lsmLocCB out
+<13:30:05> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 25/0
+<13:30:05> INFO: lsmLocCallback : do nothing
+<13:30:05> LSM:lsmLocCB out
+<13:30:06> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 26/0
+<13:30:06> INFO: lsmLocCallback : do nothing
+<13:30:06> LSM:lsmLocCB out
+<13:30:07> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 27/0
+<13:30:07> INFO: lsmLocCallback : do nothing
+<13:30:07> LSM:lsmLocCB out
+<13:30:08> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 28/0
+<13:30:08> INFO: lsmLocCallback : do nothing
+<13:30:08> LSM:lsmLocCB out
+<13:30:09> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 29/0
+<13:30:09> INFO: lsmLocCallback : do nothing
+<13:30:09> LSM:lsmLocCB out
+<13:30:10> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 30/0
+<13:30:10> INFO: lsmLocCallback : do nothing
+<13:30:10> LSM:lsmLocCB out
+<13:30:11> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 31/0
+<13:30:11> INFO: lsmLocCallback : do nothing
+<13:30:11> LSM:lsmLocCB out
+<13:30:12> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 32/0
+<13:30:12> INFO: lsmLocCallback : do nothing
+<13:30:12> LSM:lsmLocCB out
+<13:30:13> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 33/0
+<13:30:13> INFO: lsmLocCallback : do nothing
+<13:30:13> LSM:lsmLocCB out
+<13:30:14> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 34/0
+<13:30:14> INFO: lsmLocCallback : do nothing
+<13:30:14> LSM:lsmLocCB out
+<13:30:15> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 35/0
+<13:30:15> INFO: lsmLocCallback : do nothing
+<13:30:15> LSM:lsmLocCB out
+<13:30:16> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 36/0
+<13:30:16> INFO: lsmLocCallback : do nothing
+<13:30:16> LSM:lsmLocCB out
+<13:30:17> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 37/0
+<13:30:17> INFO: lsmLocCallback : do nothing
+<13:30:17> LSM:lsmLocCB out
+<13:30:18> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 38/0
+<13:30:18> INFO: lsmLocCallback : do nothing
+<13:30:18> LSM:lsmLocCB out
+<13:30:19> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 39/0
+<13:30:19> INFO: lsmLocCallback : do nothing
+<13:30:19> LSM:lsmLocCB out
+<13:30:20> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 40/0
+<13:30:20> INFO: lsmLocCallback : do nothing
+<13:30:20> LSM:lsmLocCB out
+<13:30:21> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 41/0
+<13:30:21> INFO: lsmLocCallback : do nothing
+<13:30:21> LSM:lsmLocCB out
+<13:30:22> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 42/0
+<13:30:22> INFO: lsmLocCallback : do nothing
+<13:30:22> LSM:lsmLocCB out
+<13:30:23> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 43/0
+<13:30:23> INFO: lsmLocCallback : do nothing
+<13:30:23> LSM:lsmLocCB out
+<13:30:24> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 44/0
+<13:30:24> INFO: lsmLocCallback : do nothing
+<13:30:24> LSM:lsmLocCB out
+<13:30:25> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 45/0
+<13:30:25> INFO: lsmLocCallback : do nothing
+<13:30:25> LSM:lsmLocCB out
+<13:30:26> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 46/0
+<13:30:26> INFO: lsmLocCallback : do nothing
+<13:30:26> LSM:lsmLocCB out
+<13:30:27> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 47/0
+<13:30:27> INFO: lsmLocCallback : do nothing
+<13:30:27> LSM:lsmLocCB out
+<13:30:28> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 48/0
+<13:30:28> INFO: lsmLocCallback : do nothing
+<13:30:28> LSM:lsmLocCB out
+<13:30:29> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 49/0
+<13:30:29> INFO: lsmLocCallback : do nothing
+<13:30:29> LSM:lsmLocCB out
+<13:30:30> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 50/0
+<13:30:30> INFO: lsmLocCallback : do nothing
+<13:30:30> LSM:lsmLocCB out
+<13:30:31> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 51/0
+<13:30:31> INFO: lsmLocCallback : do nothing
+<13:30:31> LSM:lsmLocCB out
+<13:30:32> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 52/0
+<13:30:32> INFO: lsmLocCallback : do nothing
+<13:30:32> LSM:lsmLocCB out
+<13:30:33> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 53/0
+<13:30:33> INFO: lsmLocCallback : do nothing
+<13:30:33> LSM:lsmLocCB out
+<13:30:34> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 54/0
+<13:30:34> INFO: lsmLocCallback : do nothing
+<13:30:34> LSM:lsmLocCB out
+<13:30:35> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 55/0
+<13:30:35> INFO: lsmLocCallback : do nothing
+<13:30:35> LSM:lsmLocCB out
+<13:30:36> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 56/0
+<13:30:36> INFO: lsmLocCallback : do nothing
+<13:30:36> LSM:lsmLocCB out
+<13:30:37> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 57/0
+<13:30:37> INFO: lsmLocCallback : do nothing
+<13:30:37> LSM:lsmLocCB out
+<13:30:38> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 58/0
+<13:30:38> INFO: lsmLocCallback : do nothing
+<13:30:38> LSM:lsmLocCB out
+<13:30:39> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 59/0
+<13:30:39> INFO: lsmLocCallback : do nothing
+<13:30:39> LSM:lsmLocCB out
+<13:30:40> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 60/0
+<13:30:40> INFO: lsmLocCallback : do nothing
+<13:30:40> LSM:lsmLocCB out
+<13:30:41> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 61/0
+<13:30:41> INFO: lsmLocCallback : do nothing
+<13:30:41> LSM:lsmLocCB out
+<13:30:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 62/0
+<13:30:42> INFO: lsmLocCallback : do nothing
+<13:30:42> LSM:lsmLocCB out
+<13:30:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 63/0
+<13:30:43> INFO: lsmLocCallback : do nothing
+<13:30:43> LSM:lsmLocCB out
+<13:30:44> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 64/0
+<13:30:44> INFO: lsmLocCallback : do nothing
+<13:30:44> LSM:lsmLocCB out
+<13:30:45> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 65/0
+<13:30:45> INFO: lsmLocCallback : do nothing
+<13:30:45> LSM:lsmLocCB out
+<13:30:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 66/0
+<13:30:46> INFO: lsmLocCallback : do nothing
+<13:30:46> LSM:lsmLocCB out
+<13:30:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 67/0
+<13:30:47> INFO: lsmLocCallback : do nothing
+<13:30:47> LSM:lsmLocCB out
+<13:30:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 68/0
+<13:30:48> INFO: lsmLocCallback : do nothing
+<13:30:48> LSM:lsmLocCB out
+<13:30:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 69/0
+<13:30:49> INFO: lsmLocCallback : do nothing
+<13:30:49> LSM:lsmLocCB out
+<13:30:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 70/0
+<13:30:50> INFO: lsmLocCallback : do nothing
+<13:30:50> LSM:lsmLocCB out
+<13:30:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 71/0
+<13:30:51> INFO: lsmLocCallback : do nothing
+<13:30:51> LSM:lsmLocCB out
+<13:30:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 72/0
+<13:30:52> INFO: lsmLocCallback : do nothing
+<13:30:52> LSM:lsmLocCB out
+<13:30:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 73/0
+<13:30:53> INFO: lsmLocCallback : do nothing
+<13:30:53> LSM:lsmLocCB out
+<13:30:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 74/0
+<13:30:54> INFO: lsmLocCallback : do nothing
+<13:30:54> LSM:lsmLocCB out
+<13:30:55> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 75/0
+<13:30:55> INFO: lsmLocCallback : do nothing
+<13:30:55> LSM:lsmLocCB out
+<13:30:56> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 76/0
+<13:30:56> INFO: lsmLocCallback : do nothing
+<13:30:56> LSM:lsmLocCB out
+<13:30:57> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 77/0
+<13:30:57> INFO: lsmLocCallback : do nothing
+<13:30:57> LSM:lsmLocCB out
+<13:30:58> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 78/0
+<13:30:58> INFO: lsmLocCallback : do nothing
+<13:30:58> LSM:lsmLocCB out
+<13:30:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 79/0
+<13:30:59> INFO: lsmLocCallback : do nothing
+<13:30:59> LSM:lsmLocCB out
+<13:31:00> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 80/0
+<13:31:00> INFO: lsmLocCallback : do nothing
+<13:31:00> LSM:lsmLocCB out
+<13:31:01> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 81/0
+<13:31:01> INFO: lsmLocCallback : do nothing
+<13:31:01> LSM:lsmLocCB out
+<13:31:02> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 82/0
+<13:31:02> INFO: lsmLocCallback : do nothing
+<13:31:02> LSM:lsmLocCB out
+<13:31:03> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 83/0
+<13:31:03> INFO: lsmLocCallback : do nothing
+<13:31:03> LSM:lsmLocCB out
+<13:31:04> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 84/0
+<13:31:04> INFO: lsmLocCallback : do nothing
+<13:31:04> LSM:lsmLocCB out
+<13:31:05> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 85/0
+<13:31:05> INFO: lsmLocCallback : do nothing
+<13:31:05> LSM:lsmLocCB out
+<13:31:06> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 86/0
+<13:31:06> INFO: lsmLocCallback : do nothing
+<13:31:06> LSM:lsmLocCB out
+<13:31:07> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 87/0
+<13:31:07> INFO: lsmLocCallback : do nothing
+<13:31:07> LSM:lsmLocCB out
+<13:31:08> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 88/0
+<13:31:08> INFO: lsmLocCallback : do nothing
+<13:31:08> LSM:lsmLocCB out
+<13:31:09> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 89/0
+<13:31:09> INFO: lsmLocCallback : do nothing
+<13:31:09> LSM:lsmLocCB out
+<13:31:10> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 90/0
+<13:31:10> INFO: lsmLocCallback : do nothing
+<13:31:10> LSM:lsmLocCB out
+<13:31:11> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 91/0
+<13:31:11> INFO: lsmLocCallback : do nothing
+<13:31:11> LSM:lsmLocCB out
+<13:31:12> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 92/0
+<13:31:12> INFO: lsmLocCallback : do nothing
+<13:31:12> LSM:lsmLocCB out
+<13:31:13> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 93/0
+<13:31:13> INFO: lsmLocCallback : do nothing
+<13:31:13> LSM:lsmLocCB out
+<13:31:14> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 94/0
+<13:31:14> INFO: lsmLocCallback : do nothing
+<13:31:14> LSM:lsmLocCB out
+<13:31:15> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 95/0
+<13:31:15> INFO: lsmLocCallback : do nothing
+<13:31:15> LSM:lsmLocCB out
+<13:31:16> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 96/0
+<13:31:16> INFO: lsmLocCallback : do nothing
+<13:31:16> LSM:lsmLocCB out
+<13:31:17> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 97/0
+<13:31:17> INFO: lsmLocCallback : do nothing
+<13:31:17> LSM:lsmLocCB out
+<13:31:18> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 98/0
+<13:31:18> INFO: lsmLocCallback : do nothing
+<13:31:18> LSM:lsmLocCB out
+<13:31:19> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 99/0
+<13:31:19> INFO: lsmLocCallback : do nothing
+<13:31:19> LSM:lsmLocCB out
+<13:31:20> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 100/0
+<13:31:20> INFO: lsmLocCallback : do nothing
+<13:31:20> LSM:lsmLocCB out
+<13:31:21> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 101/0
+<13:31:21> INFO: lsmLocCallback : do nothing
+<13:31:21> LSM:lsmLocCB out
+<13:31:22> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 102/0
+<13:31:22> INFO: lsmLocCallback : do nothing
+<13:31:22> LSM:lsmLocCB out
+<13:31:23> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 103/0
+<13:31:23> INFO: lsmLocCallback : do nothing
+<13:31:23> LSM:lsmLocCB out
+<13:31:24> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 104/0
+<13:31:24> INFO: lsmLocCallback : do nothing
+<13:31:24> LSM:lsmLocCB out
+<13:31:25> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 105/0
+<13:31:25> INFO: lsmLocCallback : do nothing
+<13:31:25> LSM:lsmLocCB out
+<13:31:26> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 106/0
+<13:31:26> INFO: lsmLocCallback : do nothing
+<13:31:26> LSM:lsmLocCB out
+<13:31:27> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 107/0
+<13:31:27> INFO: lsmLocCallback : do nothing
+<13:31:27> LSM:lsmLocCB out
+<13:31:28> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 108/0
+<13:31:28> INFO: lsmLocCallback : do nothing
+<13:31:28> LSM:lsmLocCB out
+<13:31:29> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 109/0
+<13:31:29> INFO: lsmLocCallback : do nothing
+<13:31:29> LSM:lsmLocCB out
+<13:31:30> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 110/0
+<13:31:30> INFO: lsmLocCallback : do nothing
+<13:31:30> LSM:lsmLocCB out
+<13:31:31> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 111/0
+<13:31:31> INFO: lsmLocCallback : do nothing
+<13:31:31> LSM:lsmLocCB out
+<13:31:32> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 112/0
+<13:31:32> INFO: lsmLocCallback : do nothing
+<13:31:32> LSM:lsmLocCB out
+<13:31:33> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 113/0
+<13:31:33> INFO: lsmLocCallback : do nothing
+<13:31:33> LSM:lsmLocCB out
+<13:31:34> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 114/0
+<13:31:34> INFO: lsmLocCallback : do nothing
+<13:31:34> LSM:lsmLocCB out
+<13:31:35> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 115/0
+<13:31:35> INFO: lsmLocCallback : do nothing
+<13:31:35> LSM:lsmLocCB out
+<13:31:36> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 116/0
+<13:31:36> INFO: lsmLocCallback : do nothing
+<13:31:36> LSM:lsmLocCB out
+<13:31:37> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 117/0
+<13:31:37> INFO: lsmLocCallback : do nothing
+<13:31:37> LSM:lsmLocCB out
+<13:31:38> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 118/0
+<13:31:38> INFO: lsmLocCallback : do nothing
+<13:31:38> LSM:lsmLocCB out
+<13:31:39> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 119/0
+<13:31:39> INFO: lsmLocCallback : do nothing
+<13:31:39> LSM:lsmLocCB out
+<13:31:40> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 120/0
+<13:31:40> INFO: lsmLocCallback : do nothing
+<13:31:40> LSM:lsmLocCB out
+<13:31:41> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 121/0
+<13:31:41> INFO: lsmLocCallback : do nothing
+<13:31:41> LSM:lsmLocCB out
+<13:31:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 122/0
+<13:31:42> INFO: lsmLocCallback : do nothing
+<13:31:42> LSM:lsmLocCB out
+<13:31:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 123/0
+<13:31:43> INFO: lsmLocCallback : do nothing
+<13:31:43> LSM:lsmLocCB out
+<13:31:44> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 124/0
+<13:31:44> INFO: lsmLocCallback : do nothing
+<13:31:44> LSM:lsmLocCB out
+<13:31:45> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 125/0
+<13:31:45> INFO: lsmLocCallback : do nothing
+<13:31:45> LSM:lsmLocCB out
+<13:31:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 126/0
+<13:31:46> INFO: lsmLocCallback : do nothing
+<13:31:46> LSM:lsmLocCB out
+<13:31:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 127/0
+<13:31:47> INFO: lsmLocCallback : do nothing
+<13:31:47> LSM:lsmLocCB out
+<13:31:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 128/0
+<13:31:48> INFO: lsmLocCallback : do nothing
+<13:31:48> LSM:lsmLocCB out
+<13:31:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 129/0
+<13:31:49> INFO: lsmLocCallback : do nothing
+<13:31:49> LSM:lsmLocCB out
+<13:31:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 130/0
+<13:31:50> INFO: lsmLocCallback : do nothing
+<13:31:50> LSM:lsmLocCB out
+<13:31:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 131/0
+<13:31:51> INFO: lsmLocCallback : do nothing
+<13:31:51> LSM:lsmLocCB out
+<13:31:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 132/0
+<13:31:52> INFO: lsmLocCallback : do nothing
+<13:31:52> LSM:lsmLocCB out
+<13:31:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 133/0
+<13:31:53> INFO: lsmLocCallback : do nothing
+<13:31:53> LSM:lsmLocCB out
+<13:31:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 134/0
+<13:31:54> INFO: lsmLocCallback : do nothing
+<13:31:54> LSM:lsmLocCB out
+<13:31:55> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 135/0
+<13:31:55> INFO: lsmLocCallback : do nothing
+<13:31:55> LSM:lsmLocCB out
+<13:31:56> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 136/0
+<13:31:56> INFO: lsmLocCallback : do nothing
+<13:31:56> LSM:lsmLocCB out
+<13:31:57> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 137/0
+<13:31:57> INFO: lsmLocCallback : do nothing
+<13:31:57> LSM:lsmLocCB out
+<13:31:58> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 138/0
+<13:31:58> INFO: lsmLocCallback : do nothing
+<13:31:58> LSM:lsmLocCB out
+<13:31:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 139/0
+<13:31:59> INFO: lsmLocCallback : do nothing
+<13:31:59> LSM:lsmLocCB out
+<13:32:00> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 140/0
+<13:32:00> INFO: lsmLocCallback : do nothing
+<13:32:00> LSM:lsmLocCB out
+<13:32:01> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 141/0
+<13:32:01> INFO: lsmLocCallback : do nothing
+<13:32:01> LSM:lsmLocCB out
+<13:32:02> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 142/0
+<13:32:02> INFO: lsmLocCallback : do nothing
+<13:32:02> LSM:lsmLocCB out
+<13:32:03> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 143/0
+<13:32:03> INFO: lsmLocCallback : do nothing
+<13:32:03> LSM:lsmLocCB out
+<13:32:04> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 144/0
+<13:32:04> INFO: lsmLocCallback : do nothing
+<13:32:04> LSM:lsmLocCB out
+<13:32:05> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 145/0
+<13:32:05> INFO: lsmLocCallback : do nothing
+<13:32:05> LSM:lsmLocCB out
+<13:32:06> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 146/0
+<13:32:06> INFO: lsmLocCallback : do nothing
+<13:32:06> LSM:lsmLocCB out
+<13:32:07> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 147/0
+<13:32:07> INFO: lsmLocCallback : do nothing
+<13:32:07> LSM:lsmLocCB out
+<13:32:08> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 148/0
+<13:32:08> INFO: lsmLocCallback : do nothing
+<13:32:08> LSM:lsmLocCB out
+<13:32:09> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 149/0
+<13:32:09> INFO: lsmLocCallback : do nothing
+<13:32:09> LSM:lsmLocCB out
+<13:32:10> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 150/0
+<13:32:10> INFO: lsmLocCallback : do nothing
+<13:32:10> LSM:lsmLocCB out
+<13:32:11> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 151/0
+<13:32:11> INFO: lsmLocCallback : do nothing
+<13:32:11> LSM:lsmLocCB out
+<13:32:12> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 152/0
+<13:32:12> INFO: lsmLocCallback : do nothing
+<13:32:12> LSM:lsmLocCB out
+<13:32:13> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 153/0
+<13:32:13> INFO: lsmLocCallback : do nothing
+<13:32:13> LSM:lsmLocCB out
+<13:32:14> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 154/0
+<13:32:14> INFO: lsmLocCallback : do nothing
+<13:32:14> LSM:lsmLocCB out
+<13:32:15> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 155/0
+<13:32:15> INFO: lsmLocCallback : do nothing
+<13:32:15> LSM:lsmLocCB out
+<13:32:18> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 156/0
+<13:32:18> INFO: lsmLocCallback : do nothing
+<13:32:18> LSM:lsmLocCB out
+<13:32:19> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 157/0
+<13:32:19> INFO: lsmLocCallback : do nothing
+<13:32:19> LSM:lsmLocCB out
+<13:32:20> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 158/0
+<13:32:20> INFO: lsmLocCallback : do nothing
+<13:32:20> LSM:lsmLocCB out
+<13:32:21> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 159/0
+<13:32:21> INFO: lsmLocCallback : do nothing
+<13:32:21> LSM:lsmLocCB out
+<13:32:22> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 160/0
+<13:32:22> INFO: lsmLocCallback : do nothing
+<13:32:22> LSM:lsmLocCB out
+<13:32:23> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 161/0
+<13:32:23> INFO: lsmLocCallback : do nothing
+<13:32:23> LSM:lsmLocCB out
+<13:32:24> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 162/0
+<13:32:24> INFO: lsmLocCallback : do nothing
+<13:32:24> LSM:lsmLocCB out
+<13:32:25> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 163/0
+<13:32:25> INFO: lsmLocCallback : do nothing
+<13:32:25> LSM:lsmLocCB out
+<13:32:26> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 164/0
+<13:32:26> INFO: lsmLocCallback : do nothing
+<13:32:26> LSM:lsmLocCB out
+<13:32:27> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 165/0
+<13:32:27> INFO: lsmLocCallback : do nothing
+<13:32:27> LSM:lsmLocCB out
+<13:32:28> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 166/0
+<13:32:28> INFO: lsmLocCallback : do nothing
+<13:32:28> LSM:lsmLocCB out
+<13:32:29> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 167/0
+<13:32:29> INFO: lsmLocCallback : do nothing
+<13:32:29> LSM:lsmLocCB out
+<13:32:30> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 168/0
+<13:32:30> INFO: lsmLocCallback : do nothing
+<13:32:30> LSM:lsmLocCB out
+<13:32:31> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 169/0
+<13:32:31> INFO: lsmLocCallback : do nothing
+<13:32:31> LSM:lsmLocCB out
+<13:32:32> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 170/0
+<13:32:32> INFO: lsmLocCallback : do nothing
+<13:32:32> LSM:lsmLocCB out
+<13:32:33> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 171/0
+<13:32:33> INFO: lsmLocCallback : do nothing
+<13:32:33> LSM:lsmLocCB out
+<13:32:34> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 172/0
+<13:32:34> INFO: lsmLocCallback : do nothing
+<13:32:34> LSM:lsmLocCB out
+<13:32:35> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 173/0
+<13:32:35> INFO: lsmLocCallback : do nothing
+<13:32:35> LSM:lsmLocCB out
+<13:32:36> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 174/0
+<13:32:36> INFO: lsmLocCallback : do nothing
+<13:32:36> LSM:lsmLocCB out
+<13:32:37> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 175/0
+<13:32:37> INFO: lsmLocCallback : do nothing
+<13:32:37> LSM:lsmLocCB out
+<13:32:38> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 176/0
+<13:32:38> INFO: lsmLocCallback : do nothing
+<13:32:38> LSM:lsmLocCB out
+<13:32:39> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 177/0
+<13:32:39> INFO: lsmLocCallback : do nothing
+<13:32:39> LSM:lsmLocCB out
+<13:32:40> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 178/0
+<13:32:40> INFO: lsmLocCallback : do nothing
+<13:32:40> LSM:lsmLocCB out
+<13:32:41> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 179/0
+<13:32:41> INFO: lsmLocCallback : do nothing
+<13:32:41> LSM:lsmLocCB out
+<13:32:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 180/0
+<13:32:42> INFO: lsmLocCallback : do nothing
+<13:32:42> LSM:lsmLocCB out
+<13:32:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 181/0
+<13:32:43> INFO: lsmLocCallback : do nothing
+<13:32:43> LSM:lsmLocCB out
+<13:32:44> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 182/0
+<13:32:44> INFO: lsmLocCallback : do nothing
+<13:32:44> LSM:lsmLocCB out
+<13:32:45> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 183/0
+<13:32:45> INFO: lsmLocCallback : do nothing
+<13:32:45> LSM:lsmLocCB out
+<13:32:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 184/0
+<13:32:46> INFO: lsmLocCallback : do nothing
+<13:32:46> LSM:lsmLocCB out
+<13:32:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 185/0
+<13:32:47> INFO: lsmLocCallback : do nothing
+<13:32:47> LSM:lsmLocCB out
+<13:32:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 186/0
+<13:32:48> INFO: lsmLocCallback : do nothing
+<13:32:48> LSM:lsmLocCB out
+<13:32:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 187/0
+<13:32:49> INFO: lsmLocCallback : do nothing
+<13:32:49> LSM:lsmLocCB out
+<13:32:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 188/0
+<13:32:50> INFO: lsmLocCallback : do nothing
+<13:32:50> LSM:lsmLocCB out
+<13:32:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 189/0
+<13:32:51> INFO: lsmLocCallback : do nothing
+<13:32:51> LSM:lsmLocCB out
+<13:32:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 190/0
+<13:32:52> INFO: lsmLocCallback : do nothing
+<13:32:52> LSM:lsmLocCB out
+<13:32:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 191/0
+<13:32:53> INFO: lsmLocCallback : do nothing
+<13:32:53> LSM:lsmLocCB out
+<13:32:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 192/0
+<13:32:54> INFO: lsmLocCallback : do nothing
+<13:32:54> LSM:lsmLocCB out
+<13:32:55> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 193/0
+<13:32:55> INFO: lsmLocCallback : do nothing
+<13:32:55> LSM:lsmLocCB out
+<13:32:56> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 194/0
+<13:32:56> INFO: lsmLocCallback : do nothing
+<13:32:56> LSM:lsmLocCB out
+<13:32:57> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 195/0
+<13:32:57> INFO: lsmLocCallback : do nothing
+<13:32:57> LSM:lsmLocCB out
+<13:32:58> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 196/0
+<13:32:58> INFO: lsmLocCallback : do nothing
+<13:32:58> LSM:lsmLocCB out
+<13:32:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 197/0
+<13:32:59> INFO: lsmLocCallback : do nothing
+<13:32:59> LSM:lsmLocCB out
+<13:33:00> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 198/0
+<13:33:00> INFO: lsmLocCallback : do nothing
+<13:33:00> LSM:lsmLocCB out
+<13:33:01> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 199/0
+<13:33:01> INFO: lsmLocCallback : do nothing
+<13:33:01> LSM:lsmLocCB out
+<13:33:02> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 200/0
+<13:33:02> INFO: lsmLocCallback : do nothing
+<13:33:02> LSM:lsmLocCB out
+<13:33:03> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 201/0
+<13:33:03> INFO: lsmLocCallback : do nothing
+<13:33:03> LSM:lsmLocCB out
+<13:33:04> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 202/0
+<13:33:04> INFO: lsmLocCallback : do nothing
+<13:33:04> LSM:lsmLocCB out
+<13:33:05> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 203/0
+<13:33:05> INFO: lsmLocCallback : do nothing
+<13:33:05> LSM:lsmLocCB out
+<13:33:06> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 204/0
+<13:33:06> INFO: lsmLocCallback : do nothing
+<13:33:06> LSM:lsmLocCB out
+<13:33:07> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 205/0
+<13:33:07> INFO: lsmLocCallback : do nothing
+<13:33:07> LSM:lsmLocCB out
+<13:33:08> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 206/0
+<13:33:08> INFO: lsmLocCallback : do nothing
+<13:33:08> LSM:lsmLocCB out
+<13:33:10> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 207/0
+<13:33:10> INFO: lsmLocCallback : do nothing
+<13:33:10> LSM:lsmLocCB out
+<13:33:11> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 208/0
+<13:33:11> INFO: lsmLocCallback : do nothing
+<13:33:11> LSM:lsmLocCB out
+<13:33:12> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 209/0
+<13:33:12> INFO: lsmLocCallback : do nothing
+<13:33:12> LSM:lsmLocCB out
+<13:33:13> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 210/0
+<13:33:13> INFO: lsmLocCallback : do nothing
+<13:33:13> LSM:lsmLocCB out
+<13:33:14> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 211/0
+<13:33:14> INFO: lsmLocCallback : do nothing
+<13:33:14> LSM:lsmLocCB out
+<13:33:15> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 212/0
+<13:33:15> INFO: lsmLocCallback : do nothing
+<13:33:15> LSM:lsmLocCB out
+<13:33:16> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 213/0
+<13:33:16> INFO: lsmLocCallback : do nothing
+<13:33:16> LSM:lsmLocCB out
+<13:33:17> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 214/0
+<13:33:17> INFO: lsmLocCallback : do nothing
+<13:33:17> LSM:lsmLocCB out
+<13:33:18> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 215/0
+<13:33:18> INFO: lsmLocCallback : do nothing
+<13:33:18> LSM:lsmLocCB out
+<13:33:19> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 216/0
+<13:33:19> INFO: lsmLocCallback : do nothing
+<13:33:19> LSM:lsmLocCB out
+<13:33:20> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 217/0
+<13:33:20> INFO: lsmLocCallback : do nothing
+<13:33:20> LSM:lsmLocCB out
+<13:33:21> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 218/0
+<13:33:21> INFO: lsmLocCallback : do nothing
+<13:33:21> LSM:lsmLocCB out
+<13:33:22> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 219/0
+<13:33:22> INFO: lsmLocCallback : do nothing
+<13:33:22> LSM:lsmLocCB out
+<13:33:23> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 220/0
+<13:33:23> INFO: lsmLocCallback : do nothing
+<13:33:23> LSM:lsmLocCB out
+<13:33:24> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 221/0
+<13:33:24> INFO: lsmLocCallback : do nothing
+<13:33:24> LSM:lsmLocCB out
+<13:33:25> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 222/0
+<13:33:25> INFO: lsmLocCallback : do nothing
+<13:33:25> LSM:lsmLocCB out
+<13:33:26> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 223/0
+<13:33:26> INFO: lsmLocCallback : do nothing
+<13:33:26> LSM:lsmLocCB out
+<13:33:27> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 224/0
+<13:33:27> INFO: lsmLocCallback : do nothing
+<13:33:27> LSM:lsmLocCB out
+<13:33:28> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 225/0
+<13:33:28> INFO: lsmLocCallback : do nothing
+<13:33:28> LSM:lsmLocCB out
+<13:33:29> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 226/0
+<13:33:29> INFO: lsmLocCallback : do nothing
+<13:33:29> LSM:lsmLocCB out
+<13:33:30> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 227/0
+<13:33:30> INFO: lsmLocCallback : do nothing
+<13:33:30> LSM:lsmLocCB out
+<13:33:31> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 228/0
+<13:33:31> INFO: lsmLocCallback : do nothing
+<13:33:31> LSM:lsmLocCB out
+<13:33:32> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 229/0
+<13:33:32> INFO: lsmLocCallback : do nothing
+<13:33:32> LSM:lsmLocCB out
+<13:33:33> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 230/0
+<13:33:33> INFO: lsmLocCallback : do nothing
+<13:33:33> LSM:lsmLocCB out
+<13:33:34> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 231/0
+<13:33:34> INFO: lsmLocCallback : do nothing
+<13:33:34> LSM:lsmLocCB out
+<13:33:35> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 232/0
+<13:33:35> INFO: lsmLocCallback : do nothing
+<13:33:35> LSM:lsmLocCB out
+<13:33:36> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 233/0
+<13:33:36> INFO: lsmLocCallback : do nothing
+<13:33:36> LSM:lsmLocCB out
+<13:33:37> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 234/0
+<13:33:37> INFO: lsmLocCallback : do nothing
+<13:33:37> LSM:lsmLocCB out
+<13:33:38> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 235/0
+<13:33:38> INFO: lsmLocCallback : do nothing
+<13:33:38> LSM:lsmLocCB out
+<13:33:39> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 236/0
+<13:33:39> INFO: lsmLocCallback : do nothing
+<13:33:39> LSM:lsmLocCB out
+<13:33:40> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 237/0
+<13:33:40> INFO: lsmLocCallback : do nothing
+<13:33:40> LSM:lsmLocCB out
+<13:33:41> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 238/0
+<13:33:41> INFO: lsmLocCallback : do nothing
+<13:33:41> LSM:lsmLocCB out
+<13:33:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 239/0
+<13:33:42> INFO: lsmLocCallback : do nothing
+<13:33:42> LSM:lsmLocCB out
+<13:33:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 240/0
+<13:33:43> INFO: lsmLocCallback : do nothing
+<13:33:43> LSM:lsmLocCB out
+<13:33:44> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 241/0
+<13:33:44> INFO: lsmLocCallback : do nothing
+<13:33:44> LSM:lsmLocCB out
+<13:33:45> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 242/0
+<13:33:45> INFO: lsmLocCallback : do nothing
+<13:33:45> LSM:lsmLocCB out
+<13:33:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 243/0
+<13:33:46> INFO: lsmLocCallback : do nothing
+<13:33:46> LSM:lsmLocCB out
+<13:33:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 244/0
+<13:33:47> INFO: lsmLocCallback : do nothing
+<13:33:47> LSM:lsmLocCB out
+<13:33:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 245/0
+<13:33:48> INFO: lsmLocCallback : do nothing
+<13:33:48> LSM:lsmLocCB out
+<13:33:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 246/0
+<13:33:49> INFO: lsmLocCallback : do nothing
+<13:33:49> LSM:lsmLocCB out
+<13:33:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 247/0
+<13:33:50> INFO: lsmLocCallback : do nothing
+<13:33:50> LSM:lsmLocCB out
+<13:33:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 248/0
+<13:33:51> INFO: lsmLocCallback : do nothing
+<13:33:51> LSM:lsmLocCB out
+<13:33:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 249/0
+<13:33:52> INFO: lsmLocCallback : do nothing
+<13:33:52> LSM:lsmLocCB out
+<13:33:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 250/0
+<13:33:53> INFO: lsmLocCallback : do nothing
+<13:33:53> LSM:lsmLocCB out
+<13:33:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 251/0
+<13:33:54> INFO: lsmLocCallback : do nothing
+<13:33:54> LSM:lsmLocCB out
+<13:33:55> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 252/0
+<13:33:55> INFO: lsmLocCallback : do nothing
+<13:33:55> LSM:lsmLocCB out
+<13:33:56> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 253/0
+<13:33:56> INFO: lsmLocCallback : do nothing
+<13:33:56> LSM:lsmLocCB out
+<13:33:57> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 254/0
+<13:33:57> INFO: lsmLocCallback : do nothing
+<13:33:57> LSM:lsmLocCB out
+<13:33:58> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 255/0
+<13:33:58> INFO: lsmLocCallback : do nothing
+<13:33:58> LSM:lsmLocCB out
+<13:33:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 256/0
+<13:33:59> INFO: lsmLocCallback : do nothing
+<13:33:59> LSM:lsmLocCB out
+<13:34:00> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 257/0
+<13:34:00> INFO: lsmLocCallback : do nothing
+<13:34:00> LSM:lsmLocCB out
+<13:34:01> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 258/0
+<13:34:01> INFO: lsmLocCallback : do nothing
+<13:34:01> LSM:lsmLocCB out
+<13:34:02> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 259/0
+<13:34:02> INFO: lsmLocCallback : do nothing
+<13:34:02> LSM:lsmLocCB out
+<13:34:03> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 260/0
+<13:34:03> INFO: lsmLocCallback : do nothing
+<13:34:03> LSM:lsmLocCB out
+<13:34:04> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 261/0
+<13:34:04> INFO: lsmLocCallback : do nothing
+<13:34:04> LSM:lsmLocCB out
+<13:34:05> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 262/0
+<13:34:05> INFO: lsmLocCallback : do nothing
+<13:34:05> LSM:lsmLocCB out
+<13:34:06> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 263/0
+<13:34:06> INFO: lsmLocCallback : do nothing
+<13:34:06> LSM:lsmLocCB out
+<13:34:07> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 264/0
+<13:34:07> INFO: lsmLocCallback : do nothing
+<13:34:07> LSM:lsmLocCB out
+<13:34:08> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 265/0
+<13:34:08> INFO: lsmLocCallback : do nothing
+<13:34:08> LSM:lsmLocCB out
+<13:34:09> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 266/0
+<13:34:09> INFO: lsmLocCallback : do nothing
+<13:34:09> LSM:lsmLocCB out
+<13:34:10> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 267/0
+<13:34:10> INFO: lsmLocCallback : do nothing
+<13:34:10> LSM:lsmLocCB out
+<13:34:11> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 268/0
+<13:34:11> INFO: lsmLocCallback : do nothing
+<13:34:11> LSM:lsmLocCB out
+<13:34:11> sirf_gps_stop called
+<13:34:11> Suspending MO session!!!
+<13:34:11> INFO: LSM_Stop is called
+<13:34:11> INFO: lsmCloseSession is called
+<13:34:11> INFO: Id = 2, type = 0
+<13:34:11> INFO: lsmCloseSession calls GM_closeSession
+<13:34:11> gps_stop wait
+<13:34:11> INFO: lsmCloseSession exits
+<13:34:11> INFO: LSM_Stop exits
+<13:34:11> semaphore rel for stop
+<13:34:11> IdleState:updating session check
+<13:34:11> INFO: GPS_WAKE_LOCK_DISABLE
+<13:34:11> gps_stop success
