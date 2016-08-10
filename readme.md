@@ -18,6 +18,7 @@ Tools are provided at two levels:
  - C++ classes that could be used by developers to implement their own tools. The most relevant are: RinexData to process RINEX data files; RTKobservation to generate RTK files; and OSPdata to acquire navigation and observation data from SiRF (TM) One Socket Protocol (OSP) records.
  - Commands to acquire OSP data from SiRF receivers, generate RINEX files from OSP data, convert and filter RINEX files, and other.
 
+Project documents can be found in the doc/html directory (https://cdn.rawgit.com/fcancillo/RXtoRINEX-V2.0/master/doc/html/index.html )
 
 ##Implementation status
 
